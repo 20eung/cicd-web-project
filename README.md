@@ -3,7 +3,9 @@ Jenkins-CI-CD-Pipeline
 
 # Docker Server settings
 
-> # vi /etc/sysconfig/docker
+```
+# vi /etc/sysconfig/docker
+```
 
 ```
 # /etc/sysconfig/docker
@@ -16,8 +18,14 @@ if [ -z "${DOCKER_CERT_PATH}" ]; then
 fi
 ```
 
-> # yum install -y iptables net-tools
+```
+# yum install -y iptables net-tools
+```
 
-> # sed -i -e 's/overlay2/vfs/g' /etc/sysconfig/docker-storage
+```
+# sed -i -e 's/overlay2/vfs/g' /etc/sysconfig/docker-storage
+```
 
-> # systemctl start docker
+```
+# systemctl start docker
+```
