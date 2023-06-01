@@ -1,7 +1,7 @@
 # cicd-web-project
 Jenkins-CI-CD-Pipeline
 
-# Docker Server settings
+# Docker Container Server settings
 
 ```
 # vi /etc/sysconfig/docker
